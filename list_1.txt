@@ -1,0 +1,27 @@
+## 1
+names = ["hoda" , "soha" , "ahmed" , "ehab" , "dina"]
+print(names[0])
+print(names[:1])
+print(names.pop(0))
+print(names[-1])
+print(names.pop(-1))
+print(names[-1])
+
+# 2
+names = ["hoda" , "soha" , "ahmed" , "ehab" , "dina"]
+print(names[::2])
+print(names[1::2])
+
+# task 3
+print(names[1:4])
+print(names[-2:])
+#------------------------------------------------
+# 4
+names[-2:]=["elzero", "elzero"]
+print(names)
+
+# 5
+names.insert(0,"soso")
+print(names)
+names.append("koko")
+print(names)
